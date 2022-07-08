@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="estilos.css">
+    <title>Seguimiento</title>
+
+</head>
+<body onload="f()">
+    <div class="cabecera">
+        <header>
+          <nav>
+           <ul class="menu">
+            <li class="menuLi"> <a href="#" class="menuA"> Inicio </a></li> 
+            <li class="menuLi" > <a href="#" class="menuA"> Seguimiento </a></li> 
+            <li class="menuLi"> <a href="#" class="menuA"> Contacto </a></li> 
+           </ul>
+         </nav>
+         </header>
+       </div>
+    
+        <form action="pedidos1.php" method="get">   
+            <center>   
+            <div class="formpedido1"> 
+                <p>Ingrese los datos del paquete</p> 
+                <br>          
+                <label for="idpedido">Ingrese el ID del pedido:</label><br></br>
+                <input type="text" id="idpedido"name="idpedido"><br></br>
+                <label for="nombre">Ingrese el nombre del producto:</label><br></br>
+                <input type="text" id="nombre"name="nombre"><br></br>
+                <label for="cantidad">Ingrese la cantidad a : </label><br></br>
+                <input type="text" id="cantidad"name="cantidad"><br></br>
+                <label for="espacio">Ingrese la cantidad de espacio que ocupa: </label><br></br>
+                <input type="espacio" id="espacio"name="espacio"><br></br>
+                <label for="almacen">Ingrese el numero de almacen: </label><br></br>
+                <input type="text" id="almacen"name="almacen"><br></br>
+                <label for="estanteria">Ingrese el numero de estanteria: </label><br></br>
+                <input type="text" id="estanteria"name="estanteria"><br></br> 
+                <button type="submit" name="button">Finalizar pedido</button> 
+            </div>
+        </center>
+        </form>   
+    
+    
+</body>
+</html>
