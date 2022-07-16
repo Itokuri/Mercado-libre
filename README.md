@@ -11,4 +11,4 @@ Andres Caseres
 Lucan Bulacio
 
 
-Temario a observar: Hubo una gran desorganizacion por parte del proyect owner, impidiendo que los demas cumplieran bien con su trabajo
+Observaciones: Hubo una gran desorganizacion por parte del proyect owner, impidiendo que los demas cumplieran bien con su trabajo
