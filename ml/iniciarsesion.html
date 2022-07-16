@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iniciarsesion.css">
+    <title>Iniciar sesión en Mercado Libre</title>
+</head>
+<body onload="f()">
+  <div class="cabecera">
+    <header>
+      <nav>
+       <ul class="menu">
+        <li class="menuLi"> <a href="#" class="menuA"> Inicio </a></li> 
+        <li class="menuLi" > <a href="#" class="menuA"> Seguimiento </a></li> 
+        <li class="menuLi"> <a href="#" class="menuA"> Contacto </a></li> 
+       </ul>
+     </nav>
+     </header>
+   </div>
+
+    <form action="loguear.php" method="POST">
+      <center>
+        <div class="form">     
+          <p>Ingrese los datos de su cuenta</p>
+          <br>
+          <label for="correo">Ingrese el usuario:</label><br></br>
+          <input type="text" id="usuario"name="usuario"><br></br>
+          <label for="constrasenia">Ingrese La contraseña:</label><br></br>
+          <input type="password" id="contrasenia"name="contrasenia"><br></br>
+          <button type="submit" name="button">Ingresar</button>
+        </div>
+      </center>
+    </form>
+    
+</body>
+</html>
