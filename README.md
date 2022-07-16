@@ -1,13 +1,21 @@
 Integrantes
 
 Maximo Escobar
+
 Victoria Laura
+
 Geraldine Abregu
+
 Maximiliano Ortiz
+
 Christian Forte
+
 Luciano Bellante
+
 Manuel Filippa
+
 Andres Caseres
+
 Lucan Bulacio
 
 
